@@ -1,0 +1,232 @@
+body html {
+  width: 100vw;
+}
+
+body {
+  position: relative;
+}
+
+ .rounded-circle { 
+  max-width: 25vw;
+  min-width: 200px;
+  border: 2px solid #ccc9c4;
+ }
+
+#hero-section {
+  min-width: 350px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/brewery.jpg);
+  height: 980px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+#headline {
+  font-family: roboto;
+  color: white;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px black;
+  position: relative;
+  top: 190px;
+}
+
+
+#tagline {
+  font-family: roboto;
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px black;
+  position: relative;
+  top: 190px;
+}
+
+#Avatar {
+  position: relative;
+  top: 190px;
+}
+
+h1 {
+  font-family: roboto;
+  color: white;
+  text-shadow: 2px 2px 4px #171010;
+  position: relative;
+  font-size: 36px;
+  top: 200px;
+  text-align: center;
+}
+
+h5, p {
+  font-family: roboto;
+  color: white;
+  text-shadow: 3px 3px 5px #171010;
+  font-size: 2.5vw;
+}
+.carousel-item {
+  background: center;
+  background-attachment: fixed;
+  max-width: 1200px;
+}
+.carousel-item img {
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  widows: 100%;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+
+.navbar-nav {
+  text-align: right;
+}
+
+
+.nav-link {
+  font-size: 15px;
+}
+
+#header-tag {
+  color: white;
+  font-family: roboto;
+  text-shadow: 2px 2px 4px #171010;
+  position: relative;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px;
+}
+
+#mission-img {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#mission-section {
+  background-color: #2B2B2B;
+  min-width: 350px;
+}
+
+#inspiration-section {
+  background-color: #2B2B2B; 
+  min-width: 350px;
+}
+
+#mission-statement {
+  color: white;
+  font-family: roboto;
+  text-shadow: 2px 2px 4px #171010;
+  font-size: 3vh;
+  text-align: justify;
+  vertical-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 300px) {
+  #mission-statement {
+     font-size: 20px;
+  }
+}
+
+#mission-img {
+  min-width: 275px;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+}
+
+
+#skills-section {
+  background-color: #171010;
+  min-width: 350px;
+}
+
+#contact-section {
+  background-color: #171010;
+  min-width: 350px;
+}
+
+#footer-section {
+  background-color: #2B2B2B;
+  min-width: 350px;
+}
+
+.logo {
+  height: 200px;
+  vertical-align: center;
+}
+
+#bootstrap {
+  vertical-align: center;
+}
+
+h4 {
+ font-size: 14px;
+ vertical-align: center;
+}
+
+#figma {
+  height: 150px;
+  vertical-align: center;
+  margin-top: 30px;
+}
+
+#figma-headline {
+  margin-top: 21px;
+}
+
+.contact-logo {
+  width: 90px;
+  vertical-align: center;
+}
+
+#email {
+  margin-top: 25px;
+}
+
+#contact-section {
+  padding: 25px;
+}
+
+#contact-row {
+  margin-top: 20px;
+}
+
+.linkedin-logo {
+  height: 110px;
+}
+
+#github {
+  margin-top: 10px;
+}
+
+#footer {
+  font-family: roboto;
+  padding: 5px;
+}
+
+
+#contact-row a:hover{
+  opacity: 0.5;
+}
+
