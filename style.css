@@ -133,7 +133,7 @@ h5, p {
 #mission-statement {
   color: white;
   font-family: roboto;
-  text-shadow: 2px 2px 4px #171010;
+  text-shadow: 2px 2px 4px black;
   font-size: 3vh;
   text-align: justify;
   vertical-align: center;
@@ -157,12 +157,12 @@ h5, p {
 
 
 #skills-section {
-  background-color: #171010;
+  background-color: black;
   min-width: 350px;
 }
 
 #contact-section {
-  background-color: #171010;
+  background-color: black;
   min-width: 350px;
 }
 
@@ -229,4 +229,3 @@ h4 {
 #contact-row a:hover{
   opacity: 0.5;
 }
-
