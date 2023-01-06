@@ -1,9 +1,3 @@
 # pacmen
-Factory for making pacmen
-You are given a starter.html code.
-When button "make one" is pressed you need to complete the code 
-to position the new pacman image and add it to the "game" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.
-You also need to make each pacman bounce off any wall it hits. 
-Start by getting at least one pacman positioned and viewable. 
-
+Factory for making pacmen. When the button "Add PacMan" is pressed a PacMan will be generated. This button will add as many PacMan as you want each time you click. When clicking the "Start" button. The Pacmen will start moving. Each time the "start" button is pressed, the pacmen will speed up. The Pacmen will then bounce of the walls of the window container.
 <img src="PacMan1.png">
