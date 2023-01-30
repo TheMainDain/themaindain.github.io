@@ -139,7 +139,7 @@ h5, p {
 }
 
 #skillslogo {
-  height: 80px;
+  height: 60px;
 }
 
 #inspiration-section {
@@ -147,15 +147,6 @@ h5, p {
   min-width: 350px;
 }
 
-#mission-statement {
-  color: white;
-  font-family: roboto;
-  text-shadow: 2px 2px 4px black;
-  font-size: 3vh;
-  text-align: justify;
-  vertical-align: center;
-  margin-top: 10px;
-}
 
 @media screen and (min-width: 300px) {
   #mission-statement {
@@ -163,9 +154,10 @@ h5, p {
   }
 }
 
-#mission-img {
-  min-width: 275px;
+#mission-section {
+  min-height: 500px;
 }
+
 
 #footer {
   text-align: center;
@@ -183,6 +175,9 @@ h5, p {
   margin-top: 10px;
 }
 
+#port1 {
+  margin-top: 60px;
+}
 
 
 #mern{
