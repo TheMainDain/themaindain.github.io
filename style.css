@@ -1,25 +1,40 @@
-body html {
-  width: 100vw;
+
+/* Added */
+.navigation {
+  padding: 20px 100px;
+  background-color: rgba(0, 0, 0);
+  height: 120px;
 }
 
-body {
-  position: relative;
+a, button, select {
+  cursor: pointer;
+  transition: .2s ease;
 }
 
- .rounded-circle { 
-  max-width: 25vw;
-  min-width: 200px;
-  border: 2px solid #ccc9c4;
- }
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+.navbar .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 
 #hero-section {
   min-width: 350px;
-  min-height: 1200px;
+  min-height: 1300px;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/brewery.jpg);
-  height: 980px;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -30,17 +45,17 @@ body {
 
 
 #headline {
-  font-family: roboto;
+  font-family: sans-serif;
   color: white;
-  font-size: 46px;
-  text-shadow: 2px 2px 4px black;
+  font-size: 56px;
+  text-shadow: 1px 1px 2px yellow;
   position: relative;
   top: 190px;
 }
 
 
 #tagline {
-  font-family: roboto;
+  font-family: sans-serif;
   color: white;
   font-size: 24px;
   text-shadow: 2px 2px 4px black;
@@ -51,24 +66,33 @@ body {
 #Avatar {
   position: relative;
   top: 190px;
-  max-height: 50vh;
+  max-height: 40vh;
 }
 
 h1 {
-  font-family: roboto;
+  font-family: sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #171010;
   position: relative;
   font-size: 36px;
   top: 200px;
   text-align: center;
+  margin-top: 25px;
+}
+
+/* Added */
+h3 {
+  font-size: 40px;
+  color: white!important;
+  font-family: sans-serif!important;
+  font-weight: bold!important; 
 }
 
 h5, p {
-  font-family: roboto;
+  font-family: sans-serif;
   color: white;
   text-shadow: 3px 3px 5px #171010;
-  font-size: 2.5vw;
+  font-size: 2.0vw;
 }
 .carousel-item {
   background: center;
@@ -97,18 +121,9 @@ h5, p {
 }
 
 
-.navbar-nav {
-  text-align: right;
-}
-
-
-.nav-link {
-  font-size: 15px;
-}
-
 #header-tag {
   color: white;
-  font-family: roboto;
+  font-family: sans-serif;
   text-shadow: 2px 2px 4px #171010;
   position: relative;
   font-size: 52px;
@@ -164,6 +179,7 @@ h5, p {
 #footer {
   text-align: center;
   color: white;
+  font-size: 15px;
 }
 
 
@@ -174,7 +190,7 @@ h5, p {
 
 #skilltag {
   font-size: 22px;
-  margin-top: 10px;
+  padding-top: 100px;
 }
 
 #port1 {
@@ -215,7 +231,7 @@ h5, p {
 }
 
 h4 {
- font-size: 14px;
+ font-size: 20px;
  vertical-align: center;
 }
 
@@ -250,11 +266,18 @@ h4 {
 }
 
 #footer {
-  font-family: roboto;
+  font-family: sans-serif;
   padding: 5px;
 }
 
 
 #contact-row a:hover{
   opacity: 0.5;
+}
+
+.education {
+  margin: auto;
+  height: 75px;
+  padding: 20px;
+  
 }
