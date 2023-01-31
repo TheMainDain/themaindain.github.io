@@ -116,6 +116,10 @@ h5, p {
   padding: 50px;
 }
 
+.port-head {
+  padding: 20px;
+}
+
 #mission-img {
   text-align: center;
   position: relative;
@@ -125,6 +129,8 @@ h5, p {
 #mission-section {
   background-color: #2B2B2B;
   min-width: 350px;
+  min-height: 500px;
+  padding-top: 30px;
 }
 
 #skills-used {
@@ -152,10 +158,6 @@ h5, p {
   #mission-statement {
      font-size: 20px;
   }
-}
-
-#mission-section {
-  min-height: 500px;
 }
 
 
