@@ -7,202 +7,182 @@
     <title>My Portfolio</title>  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
   </head>
   <body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar">
+      <header class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="https://thepink.dev/">
+            <h3 class="text-white font-secondary">TheMainDain Dev</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center justify-content-end" id="navigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+              <a class="nav-link" href="https://themaindain.github.io/"> Home </a>
+              </li>
+              <li class="nav-item ">
+              <a class="nav-link" href="https://themaindain.github.io/about">About</a>
+              </li>
+            
+              <li class="nav-item ">
+              <a class="nav-link" href="https://themaindain.github.io/portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item ">
+              <a class="nav-link" href="https://themaindain.github.io/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero-section" class="hero-image">
+      <div class="container-fluid" id="avatar-section">
+        <img src="Img/avatar.jpg" class="border border-warning mx-auto d-block" id="Avatar" alt="My Avatar">
+        <h1 class="text-center" id="headline">Hi There! 👋 I'm Dain, <br> a Fullstack Developer <br> based in Columbus, OH.</h1>
+      </div>
+    </section>
+
     
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="background-color: #171010;">
-      
-      <div class="container-fluid">
-        
-        <a class="navbar-brand" href="#hero-section"><i class="bi bi-house-door" style="color: white;"></i></a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#mission-section">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#skills-section">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#inspiration-section">Inspiration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#contact-section">Contact</a>
-            </li>
-          </ul>
-        </div>
-
+    <!-- Skills section -->
+    <section id="skills-section">
+      <div class="col-lg-10 mx-auto text-center">
+        <p id="skilltag">
+          Welcome, thanks for dropping in! I am Dain, a Data Center Engineer <br>
+          and Industrial Mechanic pursuing my dream within the world of coding by <br> 
+          becoming a MERN fullstack software developer.
+        </p>
       </div>
-
-    </nav>
-
-
-  <!-- Hero section -->
-	<section id="hero-section" class="hero-image">
-    <div class="container-fluid" id="avatar-section">
-      <img src="Img/avatar.jpg" class="rounded-circle mx-auto d-block" id="Avatar" alt="My Avatar">
-      <h1 class="text-center fw-bold" id="headline">Dain Newbanks</h1>
-      <h5 class="text-center" id="tagline">Steady as he codes...</h5>
-    </div>
-  </section>
-
-  
-
-	<!-- Portfolio -->
-  <section id="mission-section">
-    <div id="header-tag" class="port-head">My Portfolio</a>
-      <div class="container" id="port1">
-        <div class="row">
-          <div class="col-sm">
-          <button onclick="window.open('https://themaindain.github.io/PacMenGen/starter.html');" type="button" class="btn btn-outline-light btn-lg">PacMen Generator</button><h4><img src="Logos/html.png" id="skillslogo"><img src="Logos/javascript.png" id="skillslogo"></h4>
-          </div>
-          <div class="col-sm">
-          <button onclick="window.open('https://themaindain.github.io/EyeMovement/index.html');"  type="button" class="btn btn-outline-light btn-lg">Moving Eyes</button><h4><img src="Logos/html.png" id="skillslogo"><img src="Logos/css.png" id="skillslogo"><img src="Logos/javascript.png" id="skillslogo"></h4>
-          </div>
-          <div class="col-sm">
-          <button type="button" class="btn btn-outline-light btn-lg">Bus Tracker</button><h4><img src="Logos/html.png" id="skillslogo"><img src="Logos/css.png" id="skillslogo"><img src="Logos/javascript.png" id="skillslogo"></h4>
-          </div>
-          <div class="col-sm">
-          <button onclick="window.open('https://themaindain.github.io/matching-game/index.html');"  type="button" class="btn btn-outline-light btn-lg">Memory Match Game</button><h4><img src="Logos/html.png" id="skillslogo"><img src="Logos/css.png" id="skillslogo"><img src="Logos/javascript.png" id="skillslogo"></h4>
-          </div>
-        </div>
-      </div>
-      
-      </div>
-	</section>
-
-  <!-- Skills section -->
-  <section id="skills-section">
-    <div id="header-tag">Skills</a>
-    	<div class="container">
-        <h2 id="mern">Full-Stack Development with MERN</h2>
-				<div class="row">
-          <div class="col-lg">
-            <img src="Logos/javascript.png" class="logo" id="javascript"><h3 id="skilltag">Javascript ES6</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/mongo.png" class="logo" id="bootstrap"><h3 id="skilltag">MongoDB</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/express.png" class="logo" id="bootstrap"><h3 id="skilltag">Express JS</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/react.png" class="logo" id="bootstrap"><h3 id="skilltag">React JS</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/node.png" class="logo" id="bootstrap"><h3 id="skilltag">Node.JS</h3>
-          </div>
-          <h2 id="frontend">Front-End Development</h2>
-					<div class="col-lg">
-						<img src="Logos/html.png" class="logo" id="html"><h3 id="skilltag">HTML 5</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/css.png" class="logo" id="css"><h3 id="skilltag">CSS 3</h3>
-          </div>
-          <div class="col-lg">
-            <img src="Logos/bootstrap.png" class="logo" id="bootstrap"><h3 id="skilltag">Bootstrap</h3>
-          </div>
-          
-
-        
-        </div>
-      </div>
-    </div>
-	</section>
-
-  <!-- Inspiration Section -->
-  <section id="inspiration-section">
-   <div class="container-xl" id="header-tag">Inspiration</a> 
-      <div class="row">
-        <div class="col">
-          <div class="carousel-inner">    
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="Img/musashi.jpg" class="d-block w-100" alt="Miyamoto Musashi" id="samurai">
-                  <div class="carousel-caption d-md-block">
-                    <h5>"There is nothing outside of yourself that can ever enable you to get better, stronger, richer, quicker, or smarter. Everything is within."</h5>
-                    <p>Miyamoto Musashi</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="Img/carl.jpg" class="d-block w-100" alt="Carl Sagan">
-                  <div class="carousel-caption d-md-block">
-                    <h5>"Imagination will often carry us to worlds that never were, but without it we go nowhere."</h5>
-                    <p>Carl Sagan</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="Img/ray.jpg" class="d-block w-100" alt="Ray Bradbury" id="writer">
-                  <div class="carousel-caption d-md-block">
-                    <h5>"Collecting facts is important. Knowledge is important. But if you don't have an imagination to use the knowledge, civilization is nowhere."</h5>
-                    <p>Ray Bradbury</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+      <div id="header-tag">My Skills</a>
+        <div class="container">
+          <h2 id="mern">Full-Stack Development with MERN</h2>
+          <div class="row">
+            <div class="col-lg">
+              <img src="Logos/javascript.png" class="logo" id="javascript"><h3 id="skilltag">Javascript ES6</h3>
             </div>
-
+            <div class="col-lg">
+              <img src="Logos/mongo.png" class="logo" id="bootstrap"><h3 id="skilltag">MongoDB</h3>
+            </div>
+            <div class="col-lg">
+              <img src="Logos/express.png" class="logo" id="bootstrap"><h3 id="skilltag">Express JS</h3>
+            </div>
+            <div class="col-lg">
+              <img src="Logos/react.png" class="logo" id="bootstrap"><h3 id="skilltag">React JS</h3>
+            </div>
+            <div class="col-lg">
+              <img src="Logos/node.png" class="logo" id="bootstrap"><h3 id="skilltag">Node.JS</h3>
+            </div>
+            <h2 id="frontend">Front-End Development</h2>
+            <div class="col-lg">
+              <img src="Logos/html.png" class="logo" id="html"><h3 id="skilltag">HTML 5</h3>
+            </div>
+            <div class="col-lg">
+              <img src="Logos/css.png" class="logo" id="css"><h3 id="skilltag">CSS 3</h3>
+            </div>
+            <div class="col-lg">
+              <img src="Logos/bootstrap.png" class="logo" id="bootstrap"><h3 id="skilltag">Bootstrap</h3>
+            </div>
           </div>
-          </div>
-        </div> 
+        </div>
       </div>
-   </div>
+      <div class="container">
+        <div class="col-lg">
+        </div>
+    </section>
 
-  </section>
+    <!-- Inspiration Section -->
+    <section id="inspiration-section">
+    <div class="container-xl" id="header-tag">Inspiration</a> 
+        <div class="row">
+          <div class="col">
+            <div class="carousel-inner">    
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Img/musashi.jpg" class="d-block w-100" alt="Miyamoto Musashi" id="samurai">
+                    <div class="carousel-caption d-md-block">
+                      <h5>"There is nothing outside of yourself that can ever enable you to get better, stronger, richer, quicker, or smarter. Everything is within."</h5>
+                      <p>-Miyamoto Musashi</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Img/carl.jpg" class="d-block w-100" alt="Carl Sagan">
+                    <div class="carousel-caption d-md-block">
+                      <h5>"Imagination will often carry us to worlds that never were, but without it we go nowhere."</h5>
+                      <p>-Carl Sagan</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Img/ray.jpg" class="d-block w-100" alt="Ray Bradbury" id="writer">
+                    <div class="carousel-caption d-md-block">
+                      <h5>"Collecting facts is important. Knowledge is important. But if you don't have an imagination to use the knowledge, civilization is nowhere."</h5>
+                      <p>-Ray Bradbury</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
- 
-
-  <!-- Contact Section -->
-  <section id="contact-section">
-    <div class="container" id="header-tag">Contact</a>
-				<div class="row" id="contact-row">
-					<div class="col-sm">
-						<a href="https://www.linkedin.com/in/dnewbanks/" target="_blank"><img src="Logos/linkedin.png" class="linkedin-logo"></a>
-          </div>
-          <div class="col-sm">
-            <a href="https://github.com/TheMainDain" target="_blank"><img src="Logos/github.png" class="contact-logo" id="github"></a>
-          </div>
-          <div class="col-sm">
-            <a href="mailto:themaindain1@gmail.com" target="_blank"><img src="Logos/email.png" class="contact-logo" id="email"></a>
-          </div>
-          
+            </div>
+            </div>
+          </div> 
         </div>
     </div>
-  </section>
 
-  <!-- Footer section -->
-  <section id="footer-section">
-      
-   <div id="footer">
-    © Dain Newbanks 2023</a>
-   </div>
+    </section>
 
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div class="container" id="header-tag">Contact</a>
+          <div class="row" id="contact-row">
+            <div class="col-sm">
+              <a href="https://www.linkedin.com/in/dnewbanks/" target="_blank"><img src="Logos/linkedin.png" class="linkedin-logo"></a>
+            </div>
+            <div class="col-sm">
+              <a href="https://github.com/TheMainDain" target="_blank"><img src="Logos/github.png" class="contact-logo" id="github"></a>
+            </div>
+            <div class="col-sm">
+              <a href="mailto:themaindain1@gmail.com" target="_blank"><img src="Logos/email.png" class="contact-logo" id="email"></a>
+            </div>
+            
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer-section">
+        
+    <div id="footer">
+      © Dain Newbanks 2023 | All Rights Reserved</a>
+    </div>
+
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
   </body>
 
- 
-  
+
    
   
 
