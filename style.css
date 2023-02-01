@@ -57,10 +57,7 @@ a, a:hover, a:focus {
 #tagline {
   font-family: sans-serif;
   color: white;
-  font-size: 24px;
-  text-shadow: 2px 2px 4px black;
-  position: relative;
-  top: 190px;
+  font-size: 28px;
 }
 
 #Avatar {
@@ -129,24 +126,25 @@ h5, p {
   font-size: 52px;
   text-align: center;
   padding: 50px;
+
+}
+
+.education-title {
+  color: white;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  font-size: 52px;
+}
+
+.skills-header {
+  margin-top: 75px;
 }
 
 .port-head {
   padding: 20px;
 }
 
-#mission-img {
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 
-#mission-section {
-  background-color: #2B2B2B;
-  min-width: 350px;
-  min-height: 500px;
-  padding-top: 30px;
-}
 
 #skills-used {
   font-size: 15px;
@@ -164,33 +162,37 @@ h5, p {
 }
 
 #inspiration-section {
-  background-color: #2B2B2B; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/brewery.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
   min-width: 350px;
+
 }
 
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   #mission-statement {
      font-size: 20px;
   }
-}
+} */
 
-
-#footer {
-  text-align: center;
-  color: white;
-  font-size: 15px;
-}
 
 
 #skills-section {
-  background-color: black;
+  background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
   min-width: 350px;
+  
 }
 
 #skilltag {
-  font-size: 22px;
-  padding-top: 100px;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 75px;
+  
 }
 
 #port1 {
@@ -199,26 +201,24 @@ h5, p {
 
 
 #mern{
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: -75px;
   font-size: 29px;
 }
 
 #frontend {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: -75px;
- font-size: 29px;
+  font-size: 29px;
 }
 
 #contact-section {
   background-color: black;
   min-width: 350px;
+  padding: 25px;
+  background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
 }
 
-#footer-section {
-  background-color: #2B2B2B;
-  min-width: 350px;
-}
 
 .logo {
   height: 200px;
@@ -249,9 +249,6 @@ h4 {
   margin-top: 25px;
 }
 
-#contact-section {
-  padding: 25px;
-}
 
 #contact-row {
   margin-top: 20px;
@@ -267,7 +264,16 @@ h4 {
 
 #footer {
   font-family: sans-serif;
-  padding: 5px;
+  padding: 25px;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+#footer-section {
+  background-image: url("img/black.jpg");
+  min-width: 350px;
+  border-top: white;
 }
 
 
@@ -276,8 +282,24 @@ h4 {
 }
 
 .education {
-  margin: auto;
   height: 75px;
-  padding: 20px;
+  vertical-align: center;
+  margin-right: 20px;
   
+}
+
+h6 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.623);
+  font-family: sans-serif;
+  
+}
+
+#education-section {
+  padding-bottom: 250px;
+}
+
+#certs {
+  margin-left: 35px;
+  margin-bottom: 35px;
 }
