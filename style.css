@@ -20,6 +20,7 @@ a, a:hover, a:focus {
   font-weight: 600;
   text-transform: uppercase;
   padding: 15px;
+  color: white;
 }
 
 .navbar-fixed-top.scrolled {
@@ -303,4 +304,11 @@ h6 {
 #certs {
   margin-left: 35px;
   margin-bottom: 35px;
+}
+
+.nav-colored { 
+  background-color:black; 
+}
+.nav-transparent { 
+  background-color:transparent;
 }
