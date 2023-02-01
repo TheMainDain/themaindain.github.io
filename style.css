@@ -271,7 +271,7 @@ h4 {
 }
 
 #footer-section {
-  background-image: url("img/black.jpg");
+  background-color: rgb(0, 0, 0);
   min-width: 350px;
   border-top: white;
 }
