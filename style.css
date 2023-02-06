@@ -23,10 +23,7 @@ a, a:hover, a:focus {
   color: white;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
+
 
 #hero-section {
   min-width: 350px;
