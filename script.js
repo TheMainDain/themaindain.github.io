@@ -1,6 +1,6 @@
 var myNav = document.getElementById('mynav');
 window.onscroll = function () { 
-    if (document.body.scrollTop >= 1175|| document.documentElement.scrollTop >= 1175 ) {
+    if (document.body.scrollTop >= 780|| document.documentElement.scrollTop >= 780 ) {
         myNav.classList.add("nav-colored");
         myNav.classList.remove("nav-transparent");
     } 

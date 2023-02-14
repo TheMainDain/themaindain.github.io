@@ -1,3 +1,8 @@
+header {
+  height: 0px;
+}
+
+
 /* Added */
 .navigation {
   padding: 20px 100px;
@@ -22,15 +27,13 @@ a, a:hover, a:focus {
   color: white;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
+
 
 #hero-section {
   min-width: 350px;
-  min-height: 1300px;
+  min-height: 700px;
 }
+
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/brewery.jpg);
@@ -40,18 +43,22 @@ a, a:hover, a:focus {
   background-size: cover;
   background-position: center;
   position: relative;
+  z-index: -1;
 }
 
 
 
 #headline {
+  margin-top: 300px;
+  text-align: left;
   font-family: sans-serif;
   color: white;
-  font-size: 56px;
-  text-shadow: 1px 1px 2px yellow;
-  position: relative;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px black;
   top: 190px;
+  font-weight: 700!important;
 }
+
 
 
 #tagline {
@@ -77,46 +84,26 @@ h1 {
   margin-top: 25px;
 }
 
-/* Added */
-h3 {
-  font-size: 40px;
-  color: white!important;
-  font-family: sans-serif!important;
-  font-weight: bold!important; 
-}
 
-h5, p {
+/* Added */
+
+h3 {
+  text-align: left;
   font-family: sans-serif;
   color: white;
   text-shadow: 3px 3px 5px #171010;
-  font-size: 2.0vw;
-}
-.carousel-item {
-  background: center;
-  background-attachment: fixed;
-  max-width: 1200px;
-}
-.carousel-item img {
-  object-fit: contain;
-  object-position: center;
-  overflow: hidden;
-  widows: 100%;
+  font-size: 46px;
+  margin-top: 20px;
 }
 
-.carousel-item:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0,0.3);
+p {
+  margin-top: 20px;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 3px 3px 5px #171010;
+  font-size: 20px;
 }
-
-.carousel-caption {
-  z-index: 1;
-}
-
 
 #header-tag {
   color: white;
@@ -129,62 +116,14 @@ h5, p {
 
 }
 
-.education-title {
-  color: white;
-  margin-top: 250px;
-  margin-bottom: 100px;
-  font-size: 52px;
-}
 
-.skills-header {
-  margin-top: 75px;
-}
-
-.port-head {
-  padding: 20px;
-}
-
-
-
-#skills-used {
-  font-size: 15px;
-  margin-top: 10px;
-  margin-left: -110px;
-}
-
-#skills-used2 {
-  margin-top: 10px;
-  margin-left: -65px;
-}
-
-#skillslogo {
-  height: 60px;
-}
-
-#inspiration-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/brewery.jpg);
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  min-width: 350px;
-
-}
-
-
-/* @media screen and (min-width: 300px) {
-  #mission-statement {
-     font-size: 20px;
-  }
-} */
 
 
 
 #skills-section {
   background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
   min-width: 350px;
+  padding: 100px;
   
 }
 
@@ -231,10 +170,31 @@ h5, p {
 }
 
 h4 {
- font-size: 20px;
+  color: white;
+ font-size: 34px;
  vertical-align: center;
 }
 
+
+.drag-lg-top {
+  margin-top: -230px;
+}
+
+@media screen and (min-width: 300px) {
+  .drag-lg-top {
+     margin-top: 0px;
+  }
+}
+
+.img-fluid {
+ max-height: 550px; 
+ padding-top: -200;
+ z-index: 2;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10%;
+ vertical-align: middle;
+}
 
 #figma-headline {
   margin-top: 21px;

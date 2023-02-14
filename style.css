@@ -1,3 +1,7 @@
+header {
+  height: 0px;
+}
+
 
 /* Added */
 .navigation {
@@ -27,7 +31,7 @@ a, a:hover, a:focus {
 
 #hero-section {
   min-width: 350px;
-  min-height: 1300px;
+  min-height: 800px;
 }
 
 .hero-image {
@@ -43,13 +47,15 @@ a, a:hover, a:focus {
 
 
 #headline {
+  text-align: left;
   font-family: sans-serif;
   color: white;
-  font-size: 56px;
-  text-shadow: 1px 1px 2px yellow;
-  position: relative;
+  font-size: 80px;
+  text-shadow: 1px 1px 1px black;
   top: 190px;
+  font-weight: 700!important;
 }
+
 
 
 #tagline {
@@ -74,6 +80,7 @@ h1 {
   text-align: center;
   margin-top: 25px;
 }
+
 
 /* Added */
 h3 {
