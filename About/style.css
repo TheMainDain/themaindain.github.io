@@ -271,3 +271,7 @@ h6 {
 .nav-transparent { 
   background-color:transparent;
 }
+
+#find-me {
+  margin-top: 75px;
+}
