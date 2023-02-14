@@ -143,7 +143,7 @@ async function run() {
 // using async function, so we can use fetch
 async function getBusLocations() {
 	// url with the json for the api
-	const url = "http://realtime.cota.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb";
+	const url = "https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip";
 
 	// calling data and catching it in a response
 	const response = await fetch(url);
