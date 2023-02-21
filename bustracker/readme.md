@@ -7,4 +7,4 @@ This is a true working bus tracker using API keys from MTBA (Massachusetts Bay T
 Enjoy!
 
 
-<img src="bus.png" style="img {max-width: 250px;}">
+<img src="bus.png" style="img {max-width: 50px;}">
