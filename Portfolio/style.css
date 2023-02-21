@@ -31,7 +31,7 @@ header {
   
   
   #hero-section {
-    min-width: 350px;
+    min-width: 460px;
     min-height: 700px;
   }
   
@@ -99,13 +99,15 @@ header {
   }
   
   p {
-    margin-top: 20px;
     text-align: left;
+    vertical-align: center;
     font-family: sans-serif;
     color: white;
     text-shadow: 3px 3px 5px #171010;
     font-size: 20px;
+   
   }
+
   
   #header-tag {
     color: white;
@@ -124,7 +126,7 @@ header {
   
   #skills-section {
     background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
-    min-width: 350px;
+    min-width: 460px;
     padding: 100px;
     
   }
@@ -138,7 +140,6 @@ header {
   
   #port-img {
     max-height: 300px;
-
   }
   
   
@@ -156,7 +157,7 @@ header {
   
   #contact-section {
     background-color: black;
-    min-width: 350px;
+    min-width: 460px;
     padding: 25px;
     background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
   }
@@ -235,7 +236,7 @@ header {
   
   #footer-section {
     background-color: rgb(0, 0, 0);
-    min-width: 350px;
+    min-width: 460px;
     border-top: white;
   }
   
@@ -279,6 +280,7 @@ header {
     padding: 10px;
   }
 
+
   @media screen and (max-width: 700px) {
     h3 {
         font-size: 30px;
@@ -309,3 +311,10 @@ header {
          
       }
     }
+
+    @media screen and (max-width: 370px) {
+      h3 {
+          font-size: 20px;
+          
+       }
+     }
