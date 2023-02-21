@@ -207,6 +207,7 @@ header {
   .contact-logo {
     width: 90px;
     vertical-align: center;
+    padding-top: 25px;
   }
   
   #email {
