@@ -32,7 +32,7 @@ a, a:hover, a:focus {
 
 #hero-section {
   min-width: 350px;
-  min-height: 700px;
+  min-height: 600px;
 }
 
 
@@ -125,7 +125,8 @@ p {
 #skills-section {
   background-image: url("Img/black.jpg"); /*https://www.vecteezy.com/free-vector/black-background - Black Background Vectors by Vecteezy*/
   min-width: 350px;
-  padding: 100px;
+  padding: 20px;
+
   
 }
 
