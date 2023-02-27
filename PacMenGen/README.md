@@ -8,7 +8,7 @@ The Pacmen will then bounce off the walls of the window container.
 
 <img src="PacMan1.png">
 
-#Future improvements
+# Future improvements
 I'll be working on stylizing more and adding different themes and perhaps other pacman monsters. 
 
 
