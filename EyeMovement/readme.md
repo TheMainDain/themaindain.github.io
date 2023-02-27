@@ -6,7 +6,7 @@ Enjoy!
 
 
 # Future improvements
-I will be making it more mobile/media screen friendly next, aside from restyling it. 
+I will be making it more mobile/media screen friendly next by allowing the eyes to follow wherever your finger is on the screen, aside from restyling it. 
 
 # License
 MIT License
